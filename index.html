@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TikTok Lite</title>
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="TikTok Lite">
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/fy8PtNsm/gen.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <div class="main-content">
+            
+            <div id="home-tab" class="tab-page active">
+                <div class="video-section">
+                    <div class="top-nav">
+                        <span class="nav-item">LIVE</span>
+                        <span class="nav-item">Khám phá</span>
+                        <span class="nav-item">Bạn bè</span>
+                        <span class="nav-item">Đã follow</span>
+                        <span class="nav-item active">Đề xuất</span>
+                        <i class="fas fa-search search-icon"></i>
+                    </div>
+
+                    <div class="video-placeholder">
+                        <img src="https://i.postimg.cc/htzjp4fN/IMG_1668.jpg" class="bg-video" alt="Video Bình An">
+                        
+                        <div class="right-actions">
+                            <div class="action-item profile-pic">
+                                <img src="https://i.postimg.cc/nhjz0VC6/IMG_1669.jpg" alt="Profile">
+                                <div class="add-btn"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="action-item"><i class="fas fa-heart"></i><span>129K</span></div>
+                            <div class="action-item"><i class="fas fa-comment-dots"></i><span>510</span></div>
+                            <div class="action-item"><i class="fas fa-bookmark"></i><span>11,8K</span></div>
+                            <div class="action-item"><i class="fas fa-share"></i><span>19,5K</span></div>
+                            <div class="action-item spin-record">
+                                <img src="https://i.postimg.cc/nhjz0VC6/IMG_1669.jpg" alt="Record">
+                            </div>
+                        </div>
+
+                        <div class="bottom-info">
+                            <div class="username">
+                                Bình An🤍
+                            </div>
+                            <div class="description">
+                                vớ chống nắng kỉu ren=))#binhan#fyb
+                            </div>
+                            <div class="music-ticker">
+                                <i class="fas fa-music"></i>
+                                <marquee scrollamount="3">Nhạc nền - Bình An🤍</marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="discover-tab" class="tab-page">
+                <div class="reward-center-container">
+                    
+                    <div class="reward-header-dark">
+                        <div class="reward-top-bar">
+                            <i class="fas fa-chevron-left"></i>
+                            <span>Trung tâm thưởng</span>
+                            <i class="far fa-question-circle"></i>
+                        </div>
+                        
+                        <div class="reward-title-section">
+                            <div class="reward-title-text">
+                                <p>Điểm danh mỗi ngày,</p>
+                                <p class="highlight">Nhận thưởng không giới hạn</p>
+                            </div>
+                            <div class="reward-title-icon">
+                                <i class="fas fa-gem" style="color: #ffda73; font-size: 45px; filter: drop-shadow(0 0 10px rgba(255,215,0,0.5));"></i>
+                            </div>
+                        </div>
+
+                        <div class="reward-points-card">
+                            <div class="points-top">
+                                <div class="points-label">Tổng điểm thưởng <i class="fas fa-chevron-right"></i></div>
+                            </div>
+                            <div class="points-middle">
+                                <div class="points-value">0 <span class="currency">đ</span></div>
+                                <button class="checkin-btn">Điểm danh</button>
+                            </div>
+                            <div class="points-bottom">
+                                Nhận thưởng trong 3 bước <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reward-body-white">
+                        <div class="daily-rewards-section">
+                            <div class="section-header">
+                                <h2>Phần thưởng hàng ngày</h2>
+                                <span class="remind"><i class="fas fa-clock"></i> Nhắc tôi</span>
+                            </div>
+                            <div class="rewards-scroll">
+                                <div class="reward-box"><span class="amt">+18.6K</span><div class="coin-circle"><i class="fab fa-tiktok"></i></div><span class="day">Ngày đầu</span></div>
+                                <div class="reward-box"><span class="amt">+18.6K</span><div class="coin-circle"><i class="fab fa-tiktok"></i></div><span class="day">Ngày 2</span></div>
+                                <div class="reward-box"><span class="amt">+18.6K</span><div class="coin-circle"><i class="fab fa-tiktok"></i></div><span class="day">Ngày 3</span></div>
+                                <div class="reward-box"><span class="amt">+18.6K</span><div class="coin-circle"><i class="fab fa-tiktok"></i></div><span class="day">Ngày 4</span></div>
+                                <div class="reward-box"><span class="amt">+18.6K</span><div class="coin-circle"><i class="fab fa-tiktok"></i></div><span class="day">Ngày 5</span></div>
+                            </div>
+                        </div>
+
+                        <div class="explore-events-section">
+                            <h2 class="events-title">Khám phá các sự kiện có sẵn khoản thưởng dành cho bạn <i class="fas fa-fire" style="color: #fe2c55;"></i></h2>
+                            <div class="news-ticker-box">
+                                <i class="fas fa-volume-up"></i>
+                                <marquee scrollamount="4">i Tú đã nhận thành công 86.915.479đ - Member9152 đã nhận thành công 500.000đ</marquee>
+                            </div>
+                            <div class="events-tabs">
+                                <div class="e-tab active"><i class="fas fa-envelope-open-text" style="color: #fe2c55;"></i> Sự kiện & ưu đãi</div>
+                                <div class="e-tab"><i class="fas fa-briefcase" style="color: #fe2c55;"></i> Nhà sáng tạo nội dung</div>
+                            </div>
+                            <div class="event-banner">
+                                <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=500&auto=format&fit=crop" alt="Banner TikTok">
+                                <div class="banner-overlay">
+                                    <h3>Sự kiện nhiệm vụ</h3>
+                                    <p>HOÀN THÀNH NHIỆM VỤ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="height: 80px; background: #fff;"></div>
+                </div>
+            </div>
+
+            <div id="inbox-tab" class="tab-page">
+                <div class="placeholder-content">
+                    <i class="far fa-message"></i>
+                    <h2>Hộp thư</h2>
+                    <p>Khu vực hiển thị tin nhắn và thông báo.</p>
+                </div>
+            </div>
+
+            <div id="profile-tab" class="tab-page">
+                
+                <div class="auth-modal" id="authModalContainer">
+                    <div class="auth-header">
+                        <i class="fas fa-question-circle"></i>
+                        <i class="fas fa-times auth-close"></i>
+                    </div>
+
+                    <div id="auth-step-1" class="auth-step active">
+                        <h1 class="auth-title">Đăng ký TikTok</h1>
+                        <div class="auth-phone-input-group">
+                            <span class="country-code" id="openCountryModal">
+                                <span id="selectedCountryCode">VN +84</span> <i class="fas fa-caret-down" style="font-size: 12px; margin-left: 5px;"></i>
+                            </span>
+                            <span class="divider-line">|</span>
+                            <input type="tel" placeholder="Số điện thoại" class="phone-input" id="phoneNumberInput">
+                        </div>
+                        <button class="auth-main-btn" id="btnContinuePhone">Tiếp tục</button>
+                        <div class="auth-divider"><span>hoặc</span></div>
+                        <div class="auth-social-list">
+                            <button class="auth-social-btn social-trigger">
+                                <i class="fas fa-envelope social-icon email-icon"></i>
+                                <span>Tiếp tục với email</span>
+                            </button>
+                            <button class="auth-social-btn social-trigger">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook" class="social-icon" style="width: 20px; height: 20px;">
+                                <span>Tiếp tục với Facebook</span>
+                            </button>
+                            <button class="auth-social-btn social-trigger">
+                                <i class="fab fa-apple social-icon apple-icon"></i>
+                                <span>Tiếp tục với Apple</span>
+                            </button>
+                            <button class="auth-social-btn social-trigger">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="social-icon" style="width: 18px; height: 18px;">
+                                <span>Tiếp tục với Google</span>
+                            </button>
+                        </div>
+                        <div class="auth-footer-terms">
+                            Bằng việc tiếp tục với tài khoản có vị trí tại <span class="bold">Việt Nam</span>, bạn đồng ý với <span class="link">Điều khoản Dịch vụ</span>, đồng thời xác nhận rằng bạn đã đọc <span class="link">Chính sách Quyền riêng tư</span> của chúng tôi.
+                        </div>
+                        <div class="auth-footer-login">
+                            Bạn đã có tài khoản? <span class="login-link">Đăng nhập</span>
+                        </div>
+                    </div>
+
+                    <div id="auth-step-dob" class="auth-step">
+                        <h1 class="auth-title">Ngày sinh của bạn?</h1>
+                        <p class="auth-subtitle">Ngày sinh của bạn sẽ không được hiển thị công khai.</p>
+                        <div class="dob-input-group">
+                            <input type="number" id="inputDay" placeholder="Ngày" min="1" max="31">
+                            <input type="number" id="inputMonth" placeholder="Tháng" min="1" max="12">
+                            <input type="number" id="inputYear" placeholder="Năm" min="1900">
+                        </div>
+                        <button class="auth-main-btn btn-disabled" id="btnContinueDob" style="background-color: #fe2c55; color: white;">Tiếp theo</button>
+                    </div>
+
+                    <div id="auth-step-password" class="auth-step">
+                        <h1 class="auth-title">Tạo mật khẩu</h1>
+                        <p class="auth-subtitle">Mật khẩu của bạn phải có ít nhất 8 ký tự.</p>
+                        <div class="password-input-group">
+                            <input type="password" id="inputPassword" placeholder="Mật khẩu">
+                            <i class="fas fa-eye-slash" id="togglePassword"></i>
+                        </div>
+                        <div class="password-conditions">
+                            <div class="condition" id="cond-length"><i class="fas fa-check-circle"></i> 8 đến 20 ký tự</div>
+                            <div class="condition" id="cond-chars"><i class="fas fa-check-circle"></i> Các chữ cái, số và ký tự đặc biệt</div>
+                        </div>
+                        <button class="auth-main-btn btn-disabled" id="btnContinuePassword" style="background-color: #fe2c55; color: white;">Đăng ký</button>
+                    </div>
+
+                    <div id="auth-step-referral" class="auth-step">
+                        <div class="referral-header">
+                            <i class="fas fa-chevron-left" id="backToPassword"></i>
+                        </div>
+                        <div class="referral-content">
+                            <div class="referral-image-wrapper">
+                                <img src="https://i.postimg.cc/Df6MBwcC/gen.jpg" alt="Referral Illustration" class="referral-img">
+                            </div>
+                            <h2 class="referral-title">Mã giới thiệu</h2>
+                            <p class="referral-subtitle">Nhập mã giới thiệu để kích hoạt ngay ưu đãi đặc biệt và nhận quà</p>
+                            <div class="referral-input-group" id="referralInputGroup">
+                                <input type="text" id="inputReferral" placeholder="Điền mã giới thiệu (nếu có)" maxlength="8">
+                                <i class="fas fa-times-circle clear-icon" id="clearReferral"></i>
+                            </div>
+                            <div class="referral-error" id="referralError">Mã giới thiệu không tồn tại</div>
+                        </div>
+                        <div class="referral-spacer"></div>
+                        <button class="auth-main-btn btn-disabled" id="btnFinishReferral" style="background-color: #ff5b77; color: white;">Xác nhận</button>
+                    </div>
+                </div>
+
+                <div id="profile-logged-in" class="profile-dashboard" style="display: none;">
+                    <div class="dash-header">
+                        <div class="dash-header-left">
+                            <div class="coin-icon"><i class="fas fa-coins" style="color: #FFD700; font-size: 16px;"></i></div>
+                        </div>
+                        <div class="dash-header-center">TikTok</div>
+                        <div class="dash-header-right"><i class="fas fa-bars"></i></div>
+                    </div>
+                    
+                    <div class="dash-user-section">
+                        <div class="dash-avatar">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="User Avatar">
+                            <div class="dash-badge"><i class="fas fa-gem"></i></div>
+                        </div>
+                        <i class="fas fa-share dash-share"></i>
+                    </div>
+                    
+                    <div class="dash-divider"></div>
+                    
+                    <div class="dash-section">
+                        <div class="dash-section-header">
+                            <h3>Dữ liệu thu nhập</h3><i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="dash-tabs">
+                            <div class="dash-tab active">Hôm nay</div>
+                            <div class="dash-tab">Hôm qua</div>
+                            <div class="dash-tab">7 ngày qua</div>
+                        </div>
+                        <div class="dash-metrics">
+                            <div class="metric-item"><span class="m-label">GMV</span><span class="m-value">đ0</span></div>
+                            <div class="metric-item"><span class="m-label">Hoa hồng</span><span class="m-value">đ0</span></div>
+                            <div class="metric-item"><span class="m-label">Lượt xem sản phẩm</span><span class="m-value">đ0</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="dash-divider"></div>
+                    
+                    <div class="dash-section">
+                        <div class="dash-section-header">
+                            <h3>Đơn hàng</h3><span class="view-all">Xem tất cả <i class="fas fa-angle-double-right"></i></span>
+                        </div>
+                        <div class="dash-icon-grid">
+                            <div class="grid-item"><div class="icon-box"><i class="fas fa-wallet"></i></div><span>Chưa than...</span></div>
+                            <div class="grid-item"><div class="icon-box"><i class="fas fa-truck"></i></div><span>Đang giao...</span></div>
+                            <div class="grid-item"><div class="icon-box"><i class="fas fa-yen-sign"></i></div><span>Hoàn tiền</span></div>
+                            <div class="grid-item"><div class="icon-box"><i class="fas fa-check-circle"></i></div><span>Đã vận...</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="dash-divider"></div>
+                    
+                    <div class="dash-section boost-section">
+                        <div class="boost-content">
+                            <i class="fas fa-fire" style="color: #ff8c00; font-size: 18px; margin-right: 10px;"></i>
+                            <h3 style="font-size: 15px; font-weight: bold;">Tăng lượng người xem và thu nhập</h3>
+                        </div>
+                        <i class="fas fa-chevron-right" style="color: #ccc;"></i>
+                    </div>
+                    
+                    <div class="dash-divider"></div>
+                    
+                    <div class="dash-section">
+                        <div class="dash-section-header">
+                            <h3>Tiện ích</h3><span class="view-all">Xem tất cả <i class="fas fa-angle-double-right"></i></span>
+                        </div>
+                        <div class="dash-icon-grid">
+                            <div class="grid-item"><div class="icon-box has-dot"><i class="fas fa-clipboard-list"></i></div><span>Nhiệm vụ</span></div>
+                            <div class="grid-item"><div class="icon-box"><i class="fas fa-gift"></i></div><span>Quà tặng</span></div>
+                            <div class="grid-item"><div class="icon-box has-dot"><i class="fas fa-fire"></i></div><span>Quảng cáo</span></div>
+                            <div class="grid-item"><div class="icon-box has-dot"><i class="fas fa-wallet"></i></div><span>Ví của tôi</span></div>
+                        </div>
+                    </div>
+                    
+                    <div style="height: 80px;"></div>
+                </div>
+
+                <div class="country-modal" id="countryModal">
+                    <div class="country-modal-content">
+                        <div class="modal-drag-handle"></div>
+                        <div class="modal-header">
+                            <i class="fas fa-times close-country-modal" id="closeCountryModal"></i>
+                            <h2>Chọn quốc gia/khu vực</h2><div style="width: 20px;"></div>
+                        </div>
+                        <div class="modal-search">
+                            <div class="search-box">
+                                <i class="fas fa-search"></i>
+                                <input type="text" id="countrySearch" placeholder="Tìm kiếm">
+                            </div>
+                        </div>
+                        <div class="country-list-container">
+                            <div class="country-list" id="countryList"></div>
+                            <div class="alphabet-index" id="alphabetIndex"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="toastNotification" class="toast-notification">Bạn chưa liên kết tài khoản vui lòng đăng kí bằng số điện thoại trên.</div>
+
+        <nav class="bottom-menu">
+            <div class="menu-item active" data-target="home-tab">
+                <i class="fas fa-home"></i>
+                <span>Trang chủ</span>
+            </div>
+            <div class="menu-item" data-target="discover-tab">
+                <i class="far fa-compass"></i>
+                <span>Khám phá</span>
+            </div>
+            <div class="menu-item upload-btn">
+                <div class="upload-icon-wrapper">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <div class="menu-item" data-target="inbox-tab">
+                <i class="far fa-message"></i>
+                <span>Hộp thư</span>
+            </div>
+            <div class="menu-item" data-target="profile-tab">
+                <i class="far fa-user"></i>
+                <span>Hồ sơ</span>
+            </div>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
